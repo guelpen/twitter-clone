@@ -1,17 +1,16 @@
 import React from "react";
-import Sidebar from "./Sidebar"
+import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+import Widgets from "./Widgets";
 import './App.css';
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h1>Hey Clever Programmers... Let's build a Twitter Clone</h1>
-      {/*Side bar */}
       <Sidebar />
-      {/* Feed */}
-
-      {/*Widgets */}
+      <Feed />
+      <Widgets />
     </div>
   );
 }
